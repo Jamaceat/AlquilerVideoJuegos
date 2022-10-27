@@ -1,11 +1,5 @@
-import OptionBar from "./components/OptionBar"
-
 function App() {
-	return (
-		<>
-			<OptionBar />
-		</>
-	)
+	return <div className="App"></div>
 }
 
 export default App
