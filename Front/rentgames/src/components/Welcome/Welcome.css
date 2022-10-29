@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Sigmar One";
+	src: url("../../fonts/SigmarOne-Regular.ttf");
+}
+
+.intro {
+	font-family: "Sigmar One";
+}
+
+.centrar {
+	display: flex;
+	justify-content: center;
+	/* align-content: center; */
+	align-items: center;
+	height: 50%;
+	font-size: 40px;
+}

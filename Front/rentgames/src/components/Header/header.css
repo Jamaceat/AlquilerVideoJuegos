@@ -1,7 +1,17 @@
+@font-face {
+	font-family: "Sigmar One";
+	src: url("../../fonts/SigmarOne-Regular.ttf");
+}
+
 .white {
 	color: white;
 }
 
+h6 {
+	padding: 0;
+	margin: 0;
+}
 .textologo {
-	/* font-family: ; */
+	font-size: 1.2 rem;
+	font-family: "Sigmar One";
 }
