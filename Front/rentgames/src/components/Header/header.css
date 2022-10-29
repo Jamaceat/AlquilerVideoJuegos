@@ -15,3 +15,9 @@ h6 {
 	font-size: 1.2 rem;
 	font-family: "Sigmar One";
 }
+
+.shadow {
+	-webkit-box-shadow: -4px 16px 57px -7px rgba(0, 0, 0, 0.99);
+	-moz-box-shadow: -4px 16px 57px -7px rgba(0, 0, 0, 0.99);
+	box-shadow: -4px 16px 57px -7px rgba(0, 0, 0, 0.99);
+}
