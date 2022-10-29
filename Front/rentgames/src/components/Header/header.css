@@ -21,3 +21,35 @@ h6 {
 	-moz-box-shadow: -4px 16px 57px -7px rgba(0, 0, 0, 0.99);
 	box-shadow: -4px 16px 57px -7px rgba(0, 0, 0, 0.99);
 }
+
+.botonheader {
+	text-decoration: none;
+	font-family: "Sigmar One";
+	color: white;
+	padding: 5px;
+	border-radius: 20%;
+	margin: 0 10px;
+}
+
+.botonheader:hover {
+	background-color: white;
+	color: black;
+	transition: background-color 0.75s;
+	transition: color 0.25s;
+}
+
+.botonheader:active {
+	background-color: rgb(200, 200, 200);
+}
+
+.flex {
+	display: flex;
+}
+
+.crecimiento {
+	flex-grow: 1;
+}
+
+.crecimientoD {
+	flex-grow: 5;
+}

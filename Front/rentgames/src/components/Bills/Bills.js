@@ -31,7 +31,8 @@ function Bills() {
 			const response = await axios.get(
 				"https://localhost:44315/api/Rents/Recibo"
 			)
-			const {data} = response
+			let {data} = response
+
 			addBills(data)
 		} catch (e) {
 			console.log(e)
@@ -42,7 +43,6 @@ function Bills() {
 		actualizar()
 	}, [])
 
-	console.log(bills)
 	return (
 		<div style={{height: "90%", width: "100%"}}>
 			<DataGrid

@@ -9,15 +9,22 @@ function Header() {
 	return (
 		<AppBar position="static">
 			<Toolbar className="shadow" sx={{bgcolor: "#000000"}}>
-				<Link component={RouterLink} to="/" underline="none">
-					<IconButton aria-label="Logoicon">
-						<h6 className="textologo white">RentGames</h6>
-						<SportsEsportsIcon sx={{color: "white"}} />
-					</IconButton>
-				</Link>
-				<Link component={RouterLink} to="/Bills" underline="none">
-					Bills
-				</Link>
+				<div className="crecimiento">
+					<Link component={RouterLink} to="/" underline="none">
+						<IconButton className="crecimiento" aria-label="Logoicon">
+							<h6 className="textologo white">RentGames</h6>
+							<SportsEsportsIcon sx={{color: "white"}} />
+						</IconButton>
+					</Link>
+				</div>
+				<div className="crecimientoD">
+					<Link component={RouterLink} to="/Bills" underline="none">
+						<span className="botonheader">Bills</span>
+					</Link>
+					<Link component={RouterLink} to="/Games" underline="none">
+						<span className="botonheader">Games</span>
+					</Link>
+				</div>
 			</Toolbar>
 		</AppBar>
 	)
