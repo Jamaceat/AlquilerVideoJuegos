@@ -1,0 +1,12 @@
+.formulario {
+	padding: 2rem;
+	background-color: rgb(209, 209, 209);
+	border-radius: 1rem;
+	height: 10rem;
+}
+
+.searchCont {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
