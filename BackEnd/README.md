@@ -8,6 +8,10 @@ FullStack Project
 
 Exposed in port `44315`
 
+### NuGet packages
+![image](https://user-images.githubusercontent.com/49654113/198900114-fd6764b9-c708-4518-a0a4-5b7e5fdbbcc3.png)
+
+
 ---
 
 ## Important to change in `appsettings.json`
