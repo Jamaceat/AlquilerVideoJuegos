@@ -16,6 +16,9 @@ You may also see any lint errors in the console.
 
 ## Requirements
 
+![image](https://user-images.githubusercontent.com/49654113/198900183-e9d2cbf4-d57d-40ef-9c1d-20af8d974a21.png)
+
+
 ### Run in bash before npm start
 
     npm install
