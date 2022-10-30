@@ -12,6 +12,8 @@ Exposed in port `44315`
 
 ## Important to change in `appsettings.json`
 
+![image](https://user-images.githubusercontent.com/49654113/198897294-cf0b89a4-f06a-4aea-b6f5-32746ea9ca3c.png)
+
 According to you sql source you need to replace the string
 
 ---
