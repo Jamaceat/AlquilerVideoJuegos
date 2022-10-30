@@ -1,7 +1,7 @@
 import React from "react"
 // import {GameContext, ContextProvider} from "../Context/Provider"
 import {useEffect} from "react"
-import {BillsContext} from "../Context/BillsContex"
+import {BillsContext} from "../Context/BillsContext"
 import axios from "axios"
 import {DataGrid} from "@mui/x-data-grid"
 

@@ -1,0 +1,50 @@
+.container {
+	width: 100%;
+	margin: 3rem 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.half {
+	/* width: auto; */
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	margin: 0 1rem;
+	margin-bottom: 1rem;
+}
+
+.centrar {
+	text-align: center;
+}
+
+.superTitulo {
+	font-size: 3rem;
+}
+
+.subTitulo {
+	font-size: 2rem;
+	margin: 0 0 -1rem 0;
+	color: rgb(0, 14, 107);
+}
+
+.info {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	text-decoration: underline;
+}
+
+.fondoblancotitulo {
+	background-color: white;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.cardcustomized {
+	background-color: rgb(161, 161, 226);
+}
+
+.cardcustomizedD {
+	background-color: rgb(69, 144, 206);
+}

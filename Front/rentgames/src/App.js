@@ -5,6 +5,7 @@ import Header from "./components/Header/header"
 import Welcome from "./components/Welcome/Welcome"
 import Bills from "./components/Bills/Bills"
 import Games from "./components/Games/Games"
+import Best from "./components/Best/Best"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<Route exact path="/" element={<Welcome />} />
 				<Route exact path="/Bills" element={<Bills />} />
 				<Route exact path="/Games" element={<Games />} />
+				<Route exact path="/Best" element={<Best />} />
 			</Routes>
 		</Router>
 	)

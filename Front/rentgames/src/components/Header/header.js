@@ -24,6 +24,9 @@ function Header() {
 					<Link component={RouterLink} to="/Games" underline="none">
 						<span className="botonheader">Games</span>
 					</Link>
+					<Link component={RouterLink} to="/Best" underline="none">
+						<span className="botonheader">Best</span>
+					</Link>
 				</div>
 			</Toolbar>
 		</AppBar>

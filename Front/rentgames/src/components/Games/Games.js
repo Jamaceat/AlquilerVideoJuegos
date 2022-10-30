@@ -29,8 +29,6 @@ export default function Games() {
 		numero = {idGame, rentalPrice: textRef.current.value}
 		actualizarPrecio()
 		addGames(getData())
-
-		console.log(numero)
 	}
 
 	const actualizarPrecio = async () => {
@@ -57,7 +55,6 @@ export default function Games() {
 		getData()
 	}, [enableChangePrice])
 
-	console.log(games)
 	return (
 		<div className="contenedor">
 			<div className="contenedorD">
@@ -79,7 +76,7 @@ export default function Games() {
 						return (
 							<Card sx={{width: "80%"}} key={x.idGame}>
 								<CardContent>
-									<h3>{x.name}</h3>
+									<h2>{x.name}</h2>
 									<p>
 										<b>Platform</b>:
 										{x.platform
