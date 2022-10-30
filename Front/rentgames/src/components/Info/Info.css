@@ -32,7 +32,14 @@
 	margin-left: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 0;
-	text-decoration: underline;
+	/* text-decoration: underline; */
+}
+
+.normalizado {
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	padding: 1rem;
 }
 
 .fondoblancotitulo {
@@ -47,4 +54,38 @@
 
 .cardcustomizedD {
 	background-color: rgb(69, 144, 206);
+}
+
+.cardcustomizedT {
+	background-color: brown;
+}
+
+.cardcustomizedC {
+	background-color: rgb(233, 221, 113);
+}
+
+.subTitulo2 {
+	font-size: 2rem;
+	margin: 0 0 -1rem 0;
+	color: rgb(229, 232, 127);
+}
+
+.subTitulo3 {
+	/* font-size: 2rem; */
+	margin: 1rem 0 -1rem 0;
+	color: rgb(79, 80, 78);
+}
+
+.rangeGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.rentItem {
+	padding: 0 10px;
+	/* border-right: 5px solid rgb(102, 102, 102); */
+}
+
+.separado {
+	margin: 0.25rem 0;
 }
