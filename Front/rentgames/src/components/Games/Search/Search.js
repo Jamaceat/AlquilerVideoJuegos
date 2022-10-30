@@ -41,9 +41,6 @@ export default function SearchGame() {
 	const textRefFu = () => {
 		const value = textRef.current.firstChild.value
 		addValorActual(value)
-		// addValorActual(value)
-		// console.log(valorActual, "valorActual")
-		// console.log(datos)
 	}
 
 	useEffect(() => {
