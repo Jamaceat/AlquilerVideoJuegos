@@ -1,7 +1,7 @@
 import React from "react"
-import BestContext from "../Context/BestContext"
+import BestContext from "../Context/InfoContext"
 import axios from "axios"
-import "./Best.css"
+import "./Info.css"
 import {Card, CardContent, Divider} from "@mui/material"
 import {useEffect} from "react"
 
@@ -56,7 +56,7 @@ export default function Best() {
 								<p className="info">{client.address}</p>
 								<Divider />
 								<p className="subTitulo">Birthday</p>
-								<p className="info">{client.birthday.split("T")[0]}</p>
+								<p className="info">{String(client.birthday).split("T")[0]}</p>
 								<Divider />
 								<p className="subTitulo">Rent Amount</p>
 								<p className="info">{client.rentas}</p>
