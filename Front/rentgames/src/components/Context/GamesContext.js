@@ -6,6 +6,11 @@ export default function GameContext() {
 		enable: false,
 		only: -1,
 	})
+	const [pagina, setPagina] = useState(0)
+
+	const addPagina = (pagina) => {
+		setPagina(pagina)
+	}
 
 	const addGames = (data) => {
 		setGames(data)
@@ -16,5 +21,5 @@ export default function GameContext() {
 		setEnableChangePrice({enable: !enableChangePrice.enable, only: idGame})
 	}
 
-	return {games, addGames, enableChangePrice, setSwitch}
+	return {games, addGames, enableChangePrice, setSwitch, pagina, addPagina}
 }
