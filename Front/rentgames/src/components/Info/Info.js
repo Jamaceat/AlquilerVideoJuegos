@@ -169,9 +169,7 @@ export default function Best() {
 								"/" +
 								date.getDate()}
 						</p>
-						<p className="fondoblancotitulo">
-							The range setted is 10, the values will go from 0-9, 10-19, ...
-						</p>
+
 						<Divider />
 						<p>Client name - Game Title</p>
 						{daily.length > 0 ? (
