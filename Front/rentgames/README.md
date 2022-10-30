@@ -22,7 +22,7 @@ You may also see any lint errors in the console.
 
 ### Bills
 
-![](https://imgur.com/a/udyfAtd)
+![Bills](https://i.imgur.com/eUiyBmo.gif)
 
 ---
 
@@ -30,16 +30,16 @@ You may also see any lint errors in the console.
 
 #### Change Price
 
-![](https://imgur.com/a/llYvUHw)
+![Change Price](https://i.imgur.com/RtYewzQ.gif)
 
 #### Advanced Search
 
-![](https://imgur.com/a/NlQx4b9)
+![Advanced Search](https://i.imgur.com/6eJnZuL.gif)
 
 ---
 
 ### Info
 
-![](https://imgur.com/a/903FZ6M)
+![Info](https://i.imgur.com/HDW4Qk4.gif)
 
 ---
