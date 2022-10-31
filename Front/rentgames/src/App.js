@@ -6,6 +6,7 @@ import Welcome from "./components/Welcome/Welcome"
 import Bills from "./components/Bills/Bills"
 import Games from "./components/Games/Games"
 import Info from "./components/Info/Info"
+import Client from "./components/Client/Client"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 				<Route exact path="/Bills" element={<Bills />} />
 				<Route exact path="/Games" element={<Games />} />
 				<Route exact path="/Info" element={<Info />} />
+				<Route exact path="/Client" element={<Client />} />
 			</Routes>
 		</Router>
 	)

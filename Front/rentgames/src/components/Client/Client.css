@@ -1,0 +1,31 @@
+.gContainer {
+	margin-top: 2rem;
+	padding: 2rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.gUser {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* min-height: 200px; */
+	background-color: rgb(240, 240, 240);
+	margin: 2rem 0;
+}
+
+.gContainerD {
+	padding: 2rem;
+	border-radius: 20px;
+
+	background-color: rgb(215, 216, 218);
+}
+
+.tMargin {
+	margin-left: 1rem;
+}
+
+.tMarginD {
+	margin-left: 2rem;
+}

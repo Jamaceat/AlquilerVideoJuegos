@@ -112,10 +112,10 @@ export default function Best() {
 								<p className="subTitulo">Title</p>
 								<p className="info">{title.titulo}</p>
 								<Divider />
-								<p className="subTitulo">Identificador del juego</p>
+								<p className="subTitulo">Game identifier</p>
 								<p className="info">{title.idGame}</p>
 								<Divider />
-								<p className="subTitulo">Veces rentado</p>
+								<p className="subTitulo">Times rented</p>
 								<p className="info">{title.frecuencia}</p>
 							</>
 						)}

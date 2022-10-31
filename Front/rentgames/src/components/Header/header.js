@@ -27,6 +27,9 @@ function Header() {
 					<Link component={RouterLink} to="/Info" underline="none">
 						<span className="botonheader">Info</span>
 					</Link>
+					<Link component={RouterLink} to="/Client" underline="none">
+						<span className="botonheader">Client</span>
+					</Link>
 				</div>
 			</Toolbar>
 		</AppBar>
